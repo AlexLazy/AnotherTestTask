@@ -19,6 +19,10 @@ module.exports.createStore = () => {
       primaryKey: true,
       autoIncrement: true
     },
+    title: SQL.STRING,
+    excerpt: SQL.STRING,
+    description: SQL.TEXT,
+    time: SQL.STRING,
     createdAt: SQL.DATE,
     updatedAt: SQL.DATE
   });

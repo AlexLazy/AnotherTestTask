@@ -1,4 +1,5 @@
 node_modules
+store.sqlite
 
 .DS_Store
 
