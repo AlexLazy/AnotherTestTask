@@ -1,5 +1,6 @@
-const { gql } = require('apollo-server');
-const typeDefs = gql`
+import gql from 'graphql-tag';
+
+export default gql`
   scalar Date
 
   type Query {
@@ -36,4 +37,3 @@ const typeDefs = gql`
     todos: [Todo]
   }
 `;
-module.exports = typeDefs;
